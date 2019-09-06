@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bckg"
+    android:background="@drawable/bg"
     tools:context="com.example.tourguide.RegisterActivity">
 
 
@@ -36,7 +36,7 @@
         android:id="@+id/etUsername"
         android:hint="Enter username..."
         style="@style/DesignXML"
-        android:layout_below="@+id/etPhn"/>
+        android:layout_below="@+id/etCountry"/>
 
     <EditText
         android:id="@+id/etPassword"
@@ -50,12 +50,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TOUR GUIDE"
-        android:textSize="30dp"
+        android:textSize="50dp"
         android:gravity="center"
-        android:textColorHint="#0E1E4D"
+        android:textColorHint="#000000"
         android:backgroundTint="#F07E86"
         android:layout_below="@+id/etPassword"
-        android:fontFamily="cursive"/>
+        android:fontFamily="cursive"
+        android:textStyle="bold"/>
 
 
 

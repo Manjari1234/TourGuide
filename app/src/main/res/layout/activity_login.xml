@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bckg"
+    android:background="@drawable/bg"
     tools:context="com.example.tourguide.LoginActivity">
 
     <EditText
@@ -12,7 +12,7 @@
         android:hint="Enter username..."
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColorHint=" #d7dbd7"
+        android:textColorHint=" #000000"
         android:backgroundTint=" #A4DB7F"
         android:layout_margin="20dp"
         android:layout_above="@+id/etloginPassword"
@@ -24,7 +24,7 @@
         android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColorHint=" #d7dbd7"
+        android:textColorHint=" #000000"
         android:backgroundTint=" #A4DB7F"
         android:layout_margin="20dp"
         android:layout_above="@+id/btnLogin"

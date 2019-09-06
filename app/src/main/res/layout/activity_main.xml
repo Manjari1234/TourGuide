@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@drawable/dashboard"
+    android:orientation="vertical"
+    tools:context="com.example.tourguide.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/tvMH"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="WELCOME TO OUR TOUR GUIDE"
+        android:layout_centerInParent="true"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:textColorHint="#fc035a"
+        android:backgroundTint="#F07E86"
+        android:layout_below="@+id/etPassword"
+        android:fontFamily="cursive" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:text="Get Started!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#c94456"
+        android:fontFamily="cursive"
+        android:textSize="30dp"
+        />
+
+
+</RelativeLayout>
